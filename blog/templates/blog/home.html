@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+<div class="col-sm-10">
+    <h3 class="text-white my-5">Home Page</h3>
+    {% for post in posts %}
+         <div class="h-40 p-5 text-white bg-dark rounded-3 my-3">
+              <h2>{{ post.title }}</h2>
+              <p>{{ post.desc }}</p>
+              <button class="btn btn-outline-light" type="button">Example button</button>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock content %}

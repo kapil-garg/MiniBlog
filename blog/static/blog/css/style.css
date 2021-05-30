@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(75, 74, 74);
+    color: antiquewhite;
+}
+
+.form-control,.form-control:focus{
+    background-color: rgb(177, 168, 168);
+}
+
